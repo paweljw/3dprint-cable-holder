@@ -1,0 +1,13 @@
+// How many cables?
+holder_count = 5;
+
+// Thicknesses in mm
+
+// Bottom "clip" - increase if you break it too easily
+bottom_thickness = 6;
+// Edge of whatever you're clipping onto's thickness
+edge_thickness = 16.28;
+// Top "clip" thickness - as bottom
+top_thickness = 5;
+// Cable ring thickness - increase if you keep breaking them
+ring_thickness = 10;

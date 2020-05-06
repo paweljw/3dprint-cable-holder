@@ -1,0 +1,4 @@
+/output
+*.stl
+*.gcode
+configuration.scad
