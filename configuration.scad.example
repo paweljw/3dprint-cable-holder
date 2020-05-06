@@ -1,6 +1,12 @@
 // How many cables?
 holder_count = 5;
 
+// Whether a counter-ring should be generated
+// WARNING: requires supports
+counter_ring = 1;
+// Distance from base ring in mm
+counter_ring_distance = 12.5;
+
 // Thicknesses in mm
 
 // Bottom "clip" - increase if you break it too easily

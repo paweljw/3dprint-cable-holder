@@ -58,6 +58,11 @@ module cable_holder(offset=0) {
     backplane();
     top_cover();
     cable_ring();
+    if (counter_ring) {
+      translate([10, counter_ring_distance, 0]) {
+        rotate([0, 0, 180]) cable_ring();
+      }
+    }
   }
 }
 
